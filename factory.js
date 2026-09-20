@@ -373,7 +373,7 @@
     document.title = tag ? (title + ' — ' + tag) : title;
     var brandTitle = document.querySelector('.brand-title');
     var brandSub = document.querySelector('.brand-sub');
-    if (brandTitle) brandTitle.textContent = title;
+    if (brandTitle && brandTitle.tagName !== 'H1') brandTitle.textContent = title;
     if (brandSub) brandSub.textContent = tag;
     var authTitle = document.getElementById('auth-title');
     if (authTitle) authTitle.textContent = 'Join ' + title;

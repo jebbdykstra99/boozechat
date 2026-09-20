@@ -5,7 +5,7 @@
   "domain": "boozechat.com",
   "tagline": "Pour. Argue. Learn.",
   "composePlaceholder": "What are you pouring tonight?",
-  "earlyWelcome": true,
+  "earlyWelcome": false,
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
@@ -283,38 +283,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Still, sparkling, and the arguments about cork.",
-      "rankings": [
-        {
-          "id": "wine-top-value",
-          "title": "Top value Wine (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample Pinot Noir (OR)",
-              "note": "Weeknight red energy",
-              "url": null,
-              "priceHint": "US $28–35 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample Albariño (ES)",
-              "note": "Crisp seafood pairing",
-              "url": null,
-              "priceHint": "US $18–24 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample Cava",
-              "note": "Bubbles without the ceremony",
-              "url": null,
-              "priceHint": "US $14–20 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-wine-1",
@@ -361,38 +330,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Neutrals, flavored, and the freezer debate.",
-      "rankings": [
-        {
-          "id": "vodka-top-value",
-          "title": "Top value Vodka (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample rye vodka",
-              "note": "Clean freezer pour",
-              "url": null,
-              "priceHint": "US $22–30 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample wheat vodka",
-              "note": "Soft for mixing",
-              "url": null,
-              "priceHint": "US $18–26 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample potato vodka",
-              "note": "Texture debate starter",
-              "url": null,
-              "priceHint": "US $28–40 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-vodka-1",
@@ -439,38 +377,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Botanicals, juniper fights, and G&T ratios.",
-      "rankings": [
-        {
-          "id": "gin-top-value",
-          "title": "Top value Gin (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample London dry",
-              "note": "Classic G&T backbone",
-              "url": null,
-              "priceHint": "US $24–32 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample contemporary gin",
-              "note": "Citrus-forward",
-              "url": null,
-              "priceHint": "US $30–42 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample navy strength",
-              "note": "Small-pour energy",
-              "url": null,
-              "priceHint": "US $35–48 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-gin-1",
@@ -517,38 +424,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Bourbon, rye, scotch — age statements optional.",
-      "rankings": [
-        {
-          "id": "whiskey-top-value",
-          "title": "Top value Whiskey (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample bourbon (high rye)",
-              "note": "Spice-forward neat",
-              "url": null,
-              "priceHint": "US $32–45 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample rye whiskey",
-              "note": "Manhattan-ready",
-              "url": null,
-              "priceHint": "US $28–40 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample blended scotch",
-              "note": "Easy weeknight",
-              "url": null,
-              "priceHint": "US $25–35 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-whiskey-1",
@@ -595,38 +471,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Agricultural to industrial; molasses lore welcome.",
-      "rankings": [
-        {
-          "id": "rum-top-value",
-          "title": "Top value Rum (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample agricole",
-              "note": "Grassy and bright",
-              "url": null,
-              "priceHint": "US $35–50 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample Jamaican pot still",
-              "note": "Funk welcome",
-              "url": null,
-              "priceHint": "US $30–45 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample aged column",
-              "note": "Old fashioned swap",
-              "url": null,
-              "priceHint": "US $28–40 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-rum-1",
@@ -673,38 +518,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Agave, highland vs lowland, and sipping vs shot.",
-      "rankings": [
-        {
-          "id": "tequila-top-value",
-          "title": "Top value Tequila (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample blanco highland",
-              "note": "Agave-forward sip",
-              "url": null,
-              "priceHint": "US $40–55 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample reposado",
-              "note": "Oak whisper",
-              "url": null,
-              "priceHint": "US $45–60 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample joven mixto-free",
-              "note": "Party pour that still respects agave",
-              "url": null,
-              "priceHint": "US $35–48 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-tequila-1",
@@ -751,38 +565,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Craft, lager loyalty, and hop math.",
-      "rankings": [
-        {
-          "id": "beer-top-value",
-          "title": "Top value Beer (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample pilsner",
-              "note": "Sessionable and sharp",
-              "url": null,
-              "priceHint": "US $10–14 / 6pk (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample IPA (west coast)",
-              "note": "Bitter loyalty",
-              "url": null,
-              "priceHint": "US $12–16 / 6pk (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample lager (local)",
-              "note": "Fridge default",
-              "url": null,
-              "priceHint": "US $9–13 / 6pk (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-beer-1",
@@ -829,38 +612,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Junmai to daiginjo; temperature is half the argument.",
-      "rankings": [
-        {
-          "id": "sake-top-value",
-          "title": "Top value Sake (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample junmai",
-              "note": "Food-friendly",
-              "url": null,
-              "priceHint": "US $22–32 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample ginjo",
-              "note": "Aromatic chill pour",
-              "url": null,
-              "priceHint": "US $28–40 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample nigori",
-              "note": "Cloudy dessert vibe",
-              "url": null,
-              "priceHint": "US $18–26 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-sake-1",
@@ -907,38 +659,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Bitter digestifs and after-dinner rituals.",
-      "rankings": [
-        {
-          "id": "amaro-top-value",
-          "title": "Top value Amaro (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample Averna-style",
-              "note": "After-dinner classic",
-              "url": null,
-              "priceHint": "US $28–38 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample alpine bitter",
-              "note": "Herbal and bracing",
-              "url": null,
-              "priceHint": "US $32–45 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample Fernet-style",
-              "note": "Love-it-or-hate-it",
-              "url": null,
-              "priceHint": "US $26–36 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-amaro-1",
@@ -985,38 +706,7 @@
       "parent": null,
       "kind": "category",
       "blurb": "Zero-proof pours that still start conversations.",
-      "rankings": [
-        {
-          "id": "nonalc-top-value",
-          "title": "Top value Nonalc (illustrative)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Sample NA IPA",
-              "note": "Hop itch without ABV",
-              "url": null,
-              "priceHint": "US $10–14 / 6pk (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 2,
-              "name": "Sample botanical NA spirit",
-              "note": "Gin-adjacent mixer",
-              "url": null,
-              "priceHint": "US $28–38 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            },
-            {
-              "rank": 3,
-              "name": "Sample NA sparkling",
-              "note": "Toast without the hangover",
-              "url": null,
-              "priceHint": "US $12–18 (illustrative)",
-              "priceHintNote": "illustrative — not a live price"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-nonalc-1",

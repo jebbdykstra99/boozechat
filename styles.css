@@ -77,7 +77,7 @@ body {
   font-size: 1.7rem; font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--nav-active);
-  line-height: 1; margin-bottom: 0.28rem;
+  line-height: 1; margin: 0 0 0.28rem;
 }
 .brand-sub {
   font-size: 0.78rem; font-weight: 400;
