@@ -1,0 +1,1062 @@
+{
+  "siteId": "booze",
+  "redditSr": "boozechat",
+  "name": "boozechat",
+  "domain": "boozechat.com",
+  "tagline": "Pour. Argue. Learn.",
+  "composePlaceholder": "What are you pouring tonight?",
+  "earlyWelcome": true,
+  "dms": true,
+  "preview": true,
+  "robots": "noindex,nofollow",
+  "emptyState": "Preview room \u2014 noindex until GTM lifts. Sign in to post the first pour. Guest can browse only. Rankings and price hints are illustrative stubs, not live shelf prices.",
+  "theme": {
+    "bg": "#1a1210",
+    "surface": "#241a16",
+    "nav-bg": "#0e0a08",
+    "nav-text": "#b8a090",
+    "nav-hover": "#f5e6d3",
+    "nav-active": "#f5e6d3",
+    "text": "#f5e6d3",
+    "text-muted": "#b8a090",
+    "text-light": "#8a7060",
+    "accent": "#c45c26",
+    "accent-dark": "#9a4518",
+    "teal": "#6b8f71",
+    "silver": "#c4b5a0",
+    "border": "#3a2a22",
+    "avatarColors": [
+      "#c45c26",
+      "#9a4518",
+      "#6b8f71",
+      "#8b4513",
+      "#4a3020",
+      "#d4a574"
+    ]
+  },
+  "trends": [
+    {
+      "tag": "Wine",
+      "headline": "Cork vs screw-cap round two",
+      "snippet": "Dummy cellar chat \u2014 no live auction data.",
+      "meta": "Nest: wine"
+    },
+    {
+      "tag": "Whiskey",
+      "headline": "Age statement optional tonight",
+      "snippet": "Illustrative pour talk. Not a tasting score.",
+      "meta": "Nest: whiskey"
+    },
+    {
+      "tag": "Gin",
+      "headline": "Juniper loyalty test",
+      "snippet": "G&T ratios as religion. Sample chatter only.",
+      "meta": "Nest: gin"
+    },
+    {
+      "tag": "Nonalc",
+      "headline": "Zero-proof is still a pour",
+      "snippet": "Preview room energy. Educate, don't gatekeep.",
+      "meta": "Nest: nonalc"
+    },
+    {
+      "tag": "Tequila",
+      "headline": "Highland vs lowland argument",
+      "snippet": "Agave talk \u2014 dummy steward notes.",
+      "meta": "Nest: tequila"
+    },
+    {
+      "tag": "Beer",
+      "headline": "Lager loyalty vs hop math",
+      "snippet": "Fridge defaults welcome. Not a rating app.",
+      "meta": "Nest: beer"
+    }
+  ],
+  "places": [
+    {
+      "tag": "Category",
+      "title": "Wine",
+      "snippet": "Still, sparkling, cork arguments."
+    },
+    {
+      "tag": "Category",
+      "title": "Whiskey",
+      "snippet": "Bourbon, rye, scotch \u2014 neat or not."
+    },
+    {
+      "tag": "Category",
+      "title": "Gin",
+      "snippet": "Botanicals and G&T ratios."
+    },
+    {
+      "tag": "Category",
+      "title": "Nonalc",
+      "snippet": "Zero-proof pours that still count."
+    }
+  ],
+  "topics": [
+    {
+      "tag": "Value",
+      "title": "Under $40 (illustrative)",
+      "snippet": "Price hints are stubs \u2014 not live shelf prices."
+    },
+    {
+      "tag": "Educate",
+      "title": "Learn the pour",
+      "snippet": "Blurbs and steward notes, not certifications."
+    },
+    {
+      "tag": "Region",
+      "title": "US / UK / JP / AU hints",
+      "snippet": "Illustrative bands only."
+    },
+    {
+      "tag": "Pairing",
+      "title": "Food + glass",
+      "snippet": "Dummy pairing energy."
+    }
+  ],
+  "stories": {
+    "enabled": true,
+    "maxSeconds": 15,
+    "maxBytes": 8000000
+  },
+  "seedNote": "sample \u2014 not mixed into the live feed",
+  "seed": [
+    {
+      "id": "p1",
+      "name": "Cork Watch",
+      "handle": "corkwatch",
+      "text": "Opening a sample Pinot and the cork held. Weeknight red energy. Dummy pour \u2014 not a live review.",
+      "hours": 2,
+      "likes": 88,
+      "replies": 12,
+      "followed": true,
+      "nestSlug": "wine"
+    },
+    {
+      "id": "p2",
+      "name": "Juniper Kid",
+      "handle": "juniperkid",
+      "text": "G&T ratio debate again. I am team 1:3. Nest: gin. Illustrative chatter only.",
+      "hours": 4,
+      "likes": 64,
+      "replies": 19,
+      "followed": true,
+      "nestSlug": "gin"
+    },
+    {
+      "id": "p3",
+      "name": "Neat Pour",
+      "handle": "neatpour",
+      "text": "High-rye bourbon neat. Age statement optional. Dummy whiskey nest post.",
+      "hours": 6,
+      "likes": 112,
+      "replies": 21,
+      "followed": false,
+      "nestSlug": "whiskey"
+    },
+    {
+      "id": "p4",
+      "name": "Zero Proof",
+      "handle": "zeroproof",
+      "text": "NA IPA in the fridge. Still a pour. Nonalc nest \u2014 educate, don't gatekeep.",
+      "hours": 9,
+      "likes": 71,
+      "replies": 8,
+      "followed": true,
+      "nestSlug": "nonalc"
+    },
+    {
+      "id": "p5",
+      "name": "Agave Note",
+      "handle": "agavenote",
+      "text": "Highland blanco sip. No shot required. Tequila nest stub.",
+      "hours": 12,
+      "likes": 95,
+      "replies": 14,
+      "followed": true,
+      "nestSlug": "tequila"
+    },
+    {
+      "id": "p6",
+      "name": "Lager Loyal",
+      "handle": "lagerloyal",
+      "text": "Local pilsner is the fridge default. Beer nest. Illustrative only.",
+      "hours": 16,
+      "likes": 53,
+      "replies": 7,
+      "followed": false,
+      "nestSlug": "beer"
+    }
+  ],
+  "notifs": [
+    {
+      "id": "n1",
+      "text": "@corkwatch liked your wine take.",
+      "time": "1h",
+      "unread": true
+    },
+    {
+      "id": "n2",
+      "text": "@juniperkid mentioned you in gin.",
+      "time": "3h",
+      "unread": true
+    },
+    {
+      "id": "n3",
+      "text": "@zeroproof started following you. Dummy follow.",
+      "time": "Yesterday",
+      "unread": true
+    }
+  ],
+  "threads": [
+    {
+      "id": "t1",
+      "name": "Cork Watch",
+      "handle": "corkwatch",
+      "preview": "Screw-cap or cork tonight?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Screw-cap or cork tonight?"
+        },
+        {
+          "me": true,
+          "text": "Cork held. Dummy cellar chat."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "Zero Proof",
+      "handle": "zeroproof",
+      "preview": "NA IPA still counts.",
+      "messages": [
+        {
+          "me": false,
+          "text": "NA IPA still counts."
+        },
+        {
+          "me": true,
+          "text": "Always. Nonalc nest."
+        }
+      ]
+    }
+  ],
+  "rail": {
+    "kind": "room-brief",
+    "title": "Room Brief",
+    "kicker": "On booze",
+    "meta": "Preview \u00b7 noindex",
+    "footer": "Curated outbound to official producer / retailer pages only. No scrape. Price hints illustrative.",
+    "porch": {
+      "prompt": "What are you pouring tonight?",
+      "dwellMs": 9000,
+      "options": [
+        "Wine",
+        "Whiskey",
+        "Nonalc"
+      ]
+    },
+    "outbound": [
+      {
+        "tag": "Educate",
+        "headline": "Tasting room etiquette (sample)",
+        "snippet": "Dummy educate card \u2014 not a retailer scrape.",
+        "meta": "Curated",
+        "url": "https://www.ttb.gov/"
+      },
+      {
+        "tag": "Retailer",
+        "headline": "Find a licensed retailer near you",
+        "snippet": "Example outbound \u2014 verify local laws. Not a price feed.",
+        "meta": "Curated example",
+        "url": "https://www.totalwine.com/"
+      }
+    ]
+  },
+  "nests": [
+    {
+      "slug": "wine",
+      "label": "Wine",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Still, sparkling, and the arguments about cork.",
+      "rankings": [
+        {
+          "id": "wine-top-value",
+          "title": "Top value Wine (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample Pinot Noir (OR)",
+              "note": "Weeknight red energy",
+              "url": null,
+              "priceHint": "US $28\u201335 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample Albari\u00f1o (ES)",
+              "note": "Crisp seafood pairing",
+              "url": null,
+              "priceHint": "US $18\u201324 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample Cava",
+              "note": "Bubbles without the ceremony",
+              "url": null,
+              "priceHint": "US $14\u201320 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-wine-1",
+          "subject": "Weeknight Pinot",
+          "stars": 4,
+          "snippet": "Dummy steward note \u2014 soft fruit, no live score.",
+          "region": "US"
+        },
+        {
+          "id": "r-wine-2",
+          "subject": "Coastal Albari\u00f1o",
+          "stars": 5,
+          "snippet": "Illustrative pairing praise only.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "vodka",
+      "label": "Vodka",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Neutrals, flavored, and the freezer debate.",
+      "rankings": [
+        {
+          "id": "vodka-top-value",
+          "title": "Top value Vodka (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample rye vodka",
+              "note": "Clean freezer pour",
+              "url": null,
+              "priceHint": "US $22\u201330 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample wheat vodka",
+              "note": "Soft for mixing",
+              "url": null,
+              "priceHint": "US $18\u201326 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample potato vodka",
+              "note": "Texture debate starter",
+              "url": null,
+              "priceHint": "US $28\u201340 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-vodka-1",
+          "subject": "Freezer rye",
+          "stars": 4,
+          "snippet": "Clean finish in a dummy martini.",
+          "region": "US"
+        },
+        {
+          "id": "r-vodka-2",
+          "subject": "Wheat mixer",
+          "stars": 3,
+          "snippet": "Fine in soda \u2014 not a lab result.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "gin",
+      "label": "Gin",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Botanicals, juniper fights, and G&T ratios.",
+      "rankings": [
+        {
+          "id": "gin-top-value",
+          "title": "Top value Gin (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample London dry",
+              "note": "Classic G&T backbone",
+              "url": null,
+              "priceHint": "US $24\u201332 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample contemporary gin",
+              "note": "Citrus-forward",
+              "url": null,
+              "priceHint": "US $30\u201342 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample navy strength",
+              "note": "Small-pour energy",
+              "url": null,
+              "priceHint": "US $35\u201348 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-gin-1",
+          "subject": "London dry G&T",
+          "stars": 5,
+          "snippet": "Juniper wins this dummy round.",
+          "region": "US"
+        },
+        {
+          "id": "r-gin-2",
+          "subject": "Citrus contemporary",
+          "stars": 4,
+          "snippet": "Good with tonic; illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "whiskey",
+      "label": "Whiskey",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Bourbon, rye, scotch \u2014 age statements optional.",
+      "rankings": [
+        {
+          "id": "whiskey-top-value",
+          "title": "Top value Whiskey (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample bourbon (high rye)",
+              "note": "Spice-forward neat",
+              "url": null,
+              "priceHint": "US $32\u201345 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample rye whiskey",
+              "note": "Manhattan-ready",
+              "url": null,
+              "priceHint": "US $28\u201340 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample blended scotch",
+              "note": "Easy weeknight",
+              "url": null,
+              "priceHint": "US $25\u201335 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-whiskey-1",
+          "subject": "High-rye bourbon neat",
+          "stars": 5,
+          "snippet": "Spice on the dummy palate.",
+          "region": "US"
+        },
+        {
+          "id": "r-whiskey-2",
+          "subject": "Blended scotch",
+          "stars": 3,
+          "snippet": "Easy pour \u2014 sample only.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "rum",
+      "label": "Rum",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Agricultural to industrial; molasses lore welcome.",
+      "rankings": [
+        {
+          "id": "rum-top-value",
+          "title": "Top value Rum (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample agricole",
+              "note": "Grassy and bright",
+              "url": null,
+              "priceHint": "US $35\u201350 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample Jamaican pot still",
+              "note": "Funk welcome",
+              "url": null,
+              "priceHint": "US $30\u201345 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample aged column",
+              "note": "Old fashioned swap",
+              "url": null,
+              "priceHint": "US $28\u201340 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-rum-1",
+          "subject": "Agricole ti' punch",
+          "stars": 5,
+          "snippet": "Grassy and bright \u2014 stub review.",
+          "region": "US"
+        },
+        {
+          "id": "r-rum-2",
+          "subject": "Jamaican neat",
+          "stars": 4,
+          "snippet": "Funk as advertised (dummy).",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "tequila",
+      "label": "Tequila",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Agave, highland vs lowland, and sipping vs shot.",
+      "rankings": [
+        {
+          "id": "tequila-top-value",
+          "title": "Top value Tequila (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample blanco highland",
+              "note": "Agave-forward sip",
+              "url": null,
+              "priceHint": "US $40\u201355 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample reposado",
+              "note": "Oak whisper",
+              "url": null,
+              "priceHint": "US $45\u201360 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample joven mixto-free",
+              "note": "Party pour that still respects agave",
+              "url": null,
+              "priceHint": "US $35\u201348 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-tequila-1",
+          "subject": "Highland blanco",
+          "stars": 5,
+          "snippet": "Agave-forward sip stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-tequila-2",
+          "subject": "Reposado old fashioned",
+          "stars": 4,
+          "snippet": "Oak whisper \u2014 illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "beer",
+      "label": "Beer",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Craft, lager loyalty, and hop math.",
+      "rankings": [
+        {
+          "id": "beer-top-value",
+          "title": "Top value Beer (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample pilsner",
+              "note": "Sessionable and sharp",
+              "url": null,
+              "priceHint": "US $10\u201314 / 6pk (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample IPA (west coast)",
+              "note": "Bitter loyalty",
+              "url": null,
+              "priceHint": "US $12\u201316 / 6pk (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample lager (local)",
+              "note": "Fridge default",
+              "url": null,
+              "priceHint": "US $9\u201313 / 6pk (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-beer-1",
+          "subject": "Local pilsner",
+          "stars": 4,
+          "snippet": "Sessionable dummy pour.",
+          "region": "US"
+        },
+        {
+          "id": "r-beer-2",
+          "subject": "West-coast IPA",
+          "stars": 4,
+          "snippet": "Bitter loyalty \u2014 sample.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "sake",
+      "label": "Sake",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Junmai to daiginjo; temperature is half the argument.",
+      "rankings": [
+        {
+          "id": "sake-top-value",
+          "title": "Top value Sake (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample junmai",
+              "note": "Food-friendly",
+              "url": null,
+              "priceHint": "US $22\u201332 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample ginjo",
+              "note": "Aromatic chill pour",
+              "url": null,
+              "priceHint": "US $28\u201340 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample nigori",
+              "note": "Cloudy dessert vibe",
+              "url": null,
+              "priceHint": "US $18\u201326 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-sake-1",
+          "subject": "Junmai warm",
+          "stars": 4,
+          "snippet": "Food-friendly stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-sake-2",
+          "subject": "Ginjo chilled",
+          "stars": 5,
+          "snippet": "Aromatic chill \u2014 illustrative.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "amaro",
+      "label": "Amaro",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Bitter digestifs and after-dinner rituals.",
+      "rankings": [
+        {
+          "id": "amaro-top-value",
+          "title": "Top value Amaro (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample Averna-style",
+              "note": "After-dinner classic",
+              "url": null,
+              "priceHint": "US $28\u201338 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample alpine bitter",
+              "note": "Herbal and bracing",
+              "url": null,
+              "priceHint": "US $32\u201345 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample Fernet-style",
+              "note": "Love-it-or-hate-it",
+              "url": null,
+              "priceHint": "US $26\u201336 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-amaro-1",
+          "subject": "After-dinner Averna-style",
+          "stars": 5,
+          "snippet": "Digestif ritual stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-amaro-2",
+          "subject": "Alpine bitter on ice",
+          "stars": 4,
+          "snippet": "Herbal \u2014 sample only.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    },
+    {
+      "slug": "nonalc",
+      "label": "Nonalc",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Zero-proof pours that still start conversations.",
+      "rankings": [
+        {
+          "id": "nonalc-top-value",
+          "title": "Top value Nonalc (illustrative)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Sample NA IPA",
+              "note": "Hop itch without ABV",
+              "url": null,
+              "priceHint": "US $10\u201314 / 6pk (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 2,
+              "name": "Sample botanical NA spirit",
+              "note": "Gin-adjacent mixer",
+              "url": null,
+              "priceHint": "US $28\u201338 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            },
+            {
+              "rank": 3,
+              "name": "Sample NA sparkling",
+              "note": "Toast without the hangover",
+              "url": null,
+              "priceHint": "US $12\u201318 (illustrative)",
+              "priceHintNote": "illustrative \u2014 not a live price"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-nonalc-1",
+          "subject": "NA IPA",
+          "stars": 4,
+          "snippet": "Hop itch scratched (dummy).",
+          "region": "US"
+        },
+        {
+          "id": "r-nonalc-2",
+          "subject": "Botanical NA + tonic",
+          "stars": 5,
+          "snippet": "Gin-adjacent stub.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "prices": [
+        {
+          "region": "US",
+          "note": "illustrative band only \u2014 not a live shelf price",
+          "band": "varies"
+        },
+        {
+          "region": "UK",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "JP",
+          "note": "illustrative band only",
+          "band": "varies"
+        },
+        {
+          "region": "AU",
+          "note": "illustrative band only",
+          "band": "varies"
+        }
+      ]
+    }
+  ],
+  "roomNumber": 12
+}
