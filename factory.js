@@ -6,7 +6,7 @@
   const LS_LIKES = '415chat.likes';
   const SITE_JSON_URL = (document.currentScript && document.currentScript.getAttribute('data-site')) || 'site.json';
 
-  let SITE_ID = '415chat';
+  let SITE_ID = 'booze';
   let site = null;
   let COLORS = ['#0b1c2c', '#1b6b73', '#c0362c', '#2a4a62', '#8a3b32', '#345c6e'];
   let TRENDS = [];
@@ -368,7 +368,7 @@
 
   function applySiteChrome() {
     if (!site) return;
-    var title = site.name || "415chat";
+    var title = site.name || "boozechat";
     var tag = site.tagline || '';
     document.title = tag ? (title + ' — ' + tag) : title;
     var brandTitle = document.querySelector('.brand-title');
@@ -3664,7 +3664,7 @@
       const age = document.getElementById('cv-reg-age');
       if (!fbAuth) { err.textContent = 'Auth is not ready.'; err.classList.add('show'); return; }
       if (!age || !age.checked) {
-        err.textContent = 'Confirm you are 13 or older and agree to the preview Terms and Privacy pages.';
+        err.textContent = 'Confirm you are 21 or older and agree to the preview Terms and Privacy pages.';
         err.classList.add('show');
         return;
       }
@@ -3695,7 +3695,7 @@
       if (!fbAuth) { err.textContent = 'Auth is not ready.'; err.classList.add('show'); return; }
       var age = document.getElementById('cv-google-age');
       if (!age || !age.checked) {
-        err.textContent = 'Confirm you are 13 or older and agree to the preview Terms and Privacy pages.';
+        err.textContent = 'Confirm you are 21 or older and agree to the preview Terms and Privacy pages.';
         err.classList.add('show');
         return;
       }
@@ -3789,7 +3789,7 @@
     return !!(storiesCfg().enabled);
   }
   function storiesComposePlaceholder() {
-    return (site && site.composePlaceholder) || "A tool with a receipt — not an oracle.";
+    return (site && site.composePlaceholder) || "What are you pouring tonight?";
   }
   function storiesMaxBytes() {
     var n = parseInt(storiesCfg().maxBytes, 10);
@@ -4575,8 +4575,8 @@
           el.hidden = false;
           el.innerHTML =
             '<button type="button" class="stories-item is-add" data-story-add="1" aria-label="Add story">' +
-              '<span class="stories-ring"><span class="stories-avatar" style="background:' + colorFor(SITE_ID || 'gaichat') + '">' +
-              escapeHtml(String(SITE_ID || 'gaichat').replace(/chat$/i, '').slice(0, 3).toUpperCase() || 'ME') + '</span>' +
+              '<span class="stories-ring"><span class="stories-avatar" style="background:' + colorFor(SITE_ID || 'booze') + '">' +
+              escapeHtml(String(SITE_ID || 'booze').replace(/chat$/i, '').slice(0, 3).toUpperCase() || 'ME') + '</span>' +
               '<span class="stories-add-badge">+</span></span>' +
               '<span class="stories-label">Add story</span></button>';
         },
@@ -4588,8 +4588,8 @@
               id: s.id || ('demo-' + i),
               siteId: SITE_ID,
               authorUid: s.authorUid || ('demo-' + i),
-              name: s.name || (site && site.name) || 'gaichat',
-              handle: s.handle || SITE_ID || 'gaichat',
+              name: s.name || (site && site.name) || 'boozechat',
+              handle: s.handle || SITE_ID || 'booze',
               type: s.type || 'text',
               text: s.text || '',
               mediaUrl: s.mediaUrl || '',
@@ -4691,6 +4691,6 @@
     .catch(function (e) {
       console.warn('site.json', e);
       composeErr((e && e.message) ? e.message : 'Could not load site.json');
-      boot({ siteId: "415chat", name: "415chat", tagline: "San Francisco, talking." });
+      boot({ siteId: "booze", name: "boozechat", tagline: "Pour. Argue. Learn." });
     });
 })();
