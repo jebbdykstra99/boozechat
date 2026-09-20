@@ -9,7 +9,7 @@
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room \u2014 noindex until GTM lifts. Sign in to post the first pour. Guest can browse only. Rankings and price hints are illustrative stubs, not live shelf prices.",
+  "emptyState": "Preview room — noindex until GTM lifts. Sign in to post the first pour. Guest can browse only. Rankings and price hints are illustrative stubs, not live shelf prices.",
   "theme": {
     "bg": "#1a1210",
     "surface": "#241a16",
@@ -38,7 +38,7 @@
     {
       "tag": "Wine",
       "headline": "Cork vs screw-cap round two",
-      "snippet": "Dummy cellar chat \u2014 no live auction data.",
+      "snippet": "Dummy cellar chat — no live auction data.",
       "meta": "Nest: wine"
     },
     {
@@ -62,7 +62,7 @@
     {
       "tag": "Tequila",
       "headline": "Highland vs lowland argument",
-      "snippet": "Agave talk \u2014 dummy steward notes.",
+      "snippet": "Agave talk — dummy steward notes.",
       "meta": "Nest: tequila"
     },
     {
@@ -81,7 +81,7 @@
     {
       "tag": "Category",
       "title": "Whiskey",
-      "snippet": "Bourbon, rye, scotch \u2014 neat or not."
+      "snippet": "Bourbon, rye, scotch — neat or not."
     },
     {
       "tag": "Category",
@@ -98,7 +98,7 @@
     {
       "tag": "Value",
       "title": "Under $40 (illustrative)",
-      "snippet": "Price hints are stubs \u2014 not live shelf prices."
+      "snippet": "Price hints are stubs — not live shelf prices."
     },
     {
       "tag": "Educate",
@@ -121,13 +121,13 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample \u2014 not mixed into the live feed",
+  "seedNote": "sample — not mixed into the live feed",
   "seed": [
     {
       "id": "p1",
       "name": "Cork Watch",
       "handle": "corkwatch",
-      "text": "Opening a sample Pinot and the cork held. Weeknight red energy. Dummy pour \u2014 not a live review.",
+      "text": "Opening a sample Pinot and the cork held. Weeknight red energy. Dummy pour — not a live review.",
       "hours": 2,
       "likes": 88,
       "replies": 12,
@@ -160,7 +160,7 @@
       "id": "p4",
       "name": "Zero Proof",
       "handle": "zeroproof",
-      "text": "NA IPA in the fridge. Still a pour. Nonalc nest \u2014 educate, don't gatekeep.",
+      "text": "NA IPA in the fridge. Still a pour. Nonalc nest — educate, don't gatekeep.",
       "hours": 9,
       "likes": 71,
       "replies": 8,
@@ -248,7 +248,7 @@
     "kind": "room-brief",
     "title": "Room Brief",
     "kicker": "On booze",
-    "meta": "Preview \u00b7 noindex",
+    "meta": "Preview · noindex",
     "footer": "Curated outbound to official producer / retailer pages only. No scrape. Price hints illustrative.",
     "porch": {
       "prompt": "What are you pouring tonight?",
@@ -263,14 +263,14 @@
       {
         "tag": "Educate",
         "headline": "Tasting room etiquette (sample)",
-        "snippet": "Dummy educate card \u2014 not a retailer scrape.",
+        "snippet": "Dummy educate card — not a retailer scrape.",
         "meta": "Curated",
         "url": "https://www.ttb.gov/"
       },
       {
         "tag": "Retailer",
         "headline": "Find a licensed retailer near you",
-        "snippet": "Example outbound \u2014 verify local laws. Not a price feed.",
+        "snippet": "Example outbound — verify local laws. Not a price feed.",
         "meta": "Curated example",
         "url": "https://www.totalwine.com/"
       }
@@ -293,24 +293,24 @@
               "name": "Sample Pinot Noir (OR)",
               "note": "Weeknight red energy",
               "url": null,
-              "priceHint": "US $28\u201335 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $28–35 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
-              "name": "Sample Albari\u00f1o (ES)",
+              "name": "Sample Albariño (ES)",
               "note": "Crisp seafood pairing",
               "url": null,
-              "priceHint": "US $18\u201324 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $18–24 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample Cava",
               "note": "Bubbles without the ceremony",
               "url": null,
-              "priceHint": "US $14\u201320 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $14–20 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -320,12 +320,12 @@
           "id": "r-wine-1",
           "subject": "Weeknight Pinot",
           "stars": 4,
-          "snippet": "Dummy steward note \u2014 soft fruit, no live score.",
+          "snippet": "Dummy steward note — soft fruit, no live score.",
           "region": "US"
         },
         {
           "id": "r-wine-2",
-          "subject": "Coastal Albari\u00f1o",
+          "subject": "Coastal Albariño",
           "stars": 5,
           "snippet": "Illustrative pairing praise only.",
           "region": "US"
@@ -335,7 +335,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -371,24 +371,24 @@
               "name": "Sample rye vodka",
               "note": "Clean freezer pour",
               "url": null,
-              "priceHint": "US $22\u201330 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $22–30 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample wheat vodka",
               "note": "Soft for mixing",
               "url": null,
-              "priceHint": "US $18\u201326 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $18–26 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample potato vodka",
               "note": "Texture debate starter",
               "url": null,
-              "priceHint": "US $28\u201340 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $28–40 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -405,7 +405,7 @@
           "id": "r-vodka-2",
           "subject": "Wheat mixer",
           "stars": 3,
-          "snippet": "Fine in soda \u2014 not a lab result.",
+          "snippet": "Fine in soda — not a lab result.",
           "region": "US"
         }
       ],
@@ -413,7 +413,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -449,24 +449,24 @@
               "name": "Sample London dry",
               "note": "Classic G&T backbone",
               "url": null,
-              "priceHint": "US $24\u201332 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $24–32 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample contemporary gin",
               "note": "Citrus-forward",
               "url": null,
-              "priceHint": "US $30\u201342 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $30–42 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample navy strength",
               "note": "Small-pour energy",
               "url": null,
-              "priceHint": "US $35\u201348 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $35–48 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -491,7 +491,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -516,7 +516,7 @@
       "label": "Whiskey",
       "parent": null,
       "kind": "category",
-      "blurb": "Bourbon, rye, scotch \u2014 age statements optional.",
+      "blurb": "Bourbon, rye, scotch — age statements optional.",
       "rankings": [
         {
           "id": "whiskey-top-value",
@@ -527,24 +527,24 @@
               "name": "Sample bourbon (high rye)",
               "note": "Spice-forward neat",
               "url": null,
-              "priceHint": "US $32\u201345 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $32–45 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample rye whiskey",
               "note": "Manhattan-ready",
               "url": null,
-              "priceHint": "US $28\u201340 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $28–40 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample blended scotch",
               "note": "Easy weeknight",
               "url": null,
-              "priceHint": "US $25\u201335 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $25–35 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -561,7 +561,7 @@
           "id": "r-whiskey-2",
           "subject": "Blended scotch",
           "stars": 3,
-          "snippet": "Easy pour \u2014 sample only.",
+          "snippet": "Easy pour — sample only.",
           "region": "US"
         }
       ],
@@ -569,7 +569,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -605,24 +605,24 @@
               "name": "Sample agricole",
               "note": "Grassy and bright",
               "url": null,
-              "priceHint": "US $35\u201350 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $35–50 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample Jamaican pot still",
               "note": "Funk welcome",
               "url": null,
-              "priceHint": "US $30\u201345 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $30–45 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample aged column",
               "note": "Old fashioned swap",
               "url": null,
-              "priceHint": "US $28\u201340 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $28–40 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -632,7 +632,7 @@
           "id": "r-rum-1",
           "subject": "Agricole ti' punch",
           "stars": 5,
-          "snippet": "Grassy and bright \u2014 stub review.",
+          "snippet": "Grassy and bright — stub review.",
           "region": "US"
         },
         {
@@ -647,7 +647,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -683,24 +683,24 @@
               "name": "Sample blanco highland",
               "note": "Agave-forward sip",
               "url": null,
-              "priceHint": "US $40\u201355 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $40–55 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample reposado",
               "note": "Oak whisper",
               "url": null,
-              "priceHint": "US $45\u201360 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $45–60 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample joven mixto-free",
               "note": "Party pour that still respects agave",
               "url": null,
-              "priceHint": "US $35\u201348 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $35–48 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -717,7 +717,7 @@
           "id": "r-tequila-2",
           "subject": "Reposado old fashioned",
           "stars": 4,
-          "snippet": "Oak whisper \u2014 illustrative.",
+          "snippet": "Oak whisper — illustrative.",
           "region": "US"
         }
       ],
@@ -725,7 +725,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -761,24 +761,24 @@
               "name": "Sample pilsner",
               "note": "Sessionable and sharp",
               "url": null,
-              "priceHint": "US $10\u201314 / 6pk (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $10–14 / 6pk (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample IPA (west coast)",
               "note": "Bitter loyalty",
               "url": null,
-              "priceHint": "US $12\u201316 / 6pk (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $12–16 / 6pk (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample lager (local)",
               "note": "Fridge default",
               "url": null,
-              "priceHint": "US $9\u201313 / 6pk (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $9–13 / 6pk (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -795,7 +795,7 @@
           "id": "r-beer-2",
           "subject": "West-coast IPA",
           "stars": 4,
-          "snippet": "Bitter loyalty \u2014 sample.",
+          "snippet": "Bitter loyalty — sample.",
           "region": "US"
         }
       ],
@@ -803,7 +803,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -839,24 +839,24 @@
               "name": "Sample junmai",
               "note": "Food-friendly",
               "url": null,
-              "priceHint": "US $22\u201332 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $22–32 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample ginjo",
               "note": "Aromatic chill pour",
               "url": null,
-              "priceHint": "US $28\u201340 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $28–40 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample nigori",
               "note": "Cloudy dessert vibe",
               "url": null,
-              "priceHint": "US $18\u201326 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $18–26 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -873,7 +873,7 @@
           "id": "r-sake-2",
           "subject": "Ginjo chilled",
           "stars": 5,
-          "snippet": "Aromatic chill \u2014 illustrative.",
+          "snippet": "Aromatic chill — illustrative.",
           "region": "US"
         }
       ],
@@ -881,7 +881,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -917,24 +917,24 @@
               "name": "Sample Averna-style",
               "note": "After-dinner classic",
               "url": null,
-              "priceHint": "US $28\u201338 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $28–38 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample alpine bitter",
               "note": "Herbal and bracing",
               "url": null,
-              "priceHint": "US $32\u201345 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $32–45 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample Fernet-style",
               "note": "Love-it-or-hate-it",
               "url": null,
-              "priceHint": "US $26\u201336 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $26–36 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -951,7 +951,7 @@
           "id": "r-amaro-2",
           "subject": "Alpine bitter on ice",
           "stars": 4,
-          "snippet": "Herbal \u2014 sample only.",
+          "snippet": "Herbal — sample only.",
           "region": "US"
         }
       ],
@@ -959,7 +959,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -995,24 +995,24 @@
               "name": "Sample NA IPA",
               "note": "Hop itch without ABV",
               "url": null,
-              "priceHint": "US $10\u201314 / 6pk (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $10–14 / 6pk (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 2,
               "name": "Sample botanical NA spirit",
               "note": "Gin-adjacent mixer",
               "url": null,
-              "priceHint": "US $28\u201338 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $28–38 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             },
             {
               "rank": 3,
               "name": "Sample NA sparkling",
               "note": "Toast without the hangover",
               "url": null,
-              "priceHint": "US $12\u201318 (illustrative)",
-              "priceHintNote": "illustrative \u2014 not a live price"
+              "priceHint": "US $12–18 (illustrative)",
+              "priceHintNote": "illustrative — not a live price"
             }
           ]
         }
@@ -1037,7 +1037,7 @@
       "prices": [
         {
           "region": "US",
-          "note": "illustrative band only \u2014 not a live shelf price",
+          "note": "illustrative band only — not a live shelf price",
           "band": "varies"
         },
         {
@@ -1057,6 +1057,5 @@
         }
       ]
     }
-  ],
-  "roomNumber": 12
+  ]
 }
