@@ -74,46 +74,56 @@
   ],
   "places": [
     {
-      "tag": "Category",
-      "title": "Wine",
-      "snippet": "Still, sparkling, cork arguments."
+      "tag": "Seat",
+      "title": "Tasting notes",
+      "snippet": "What did you smell, taste, and notice first—and what would you pour beside it?"
     },
     {
-      "tag": "Category",
-      "title": "Whiskey",
-      "snippet": "Bourbon, rye, scotch — neat or not."
+      "tag": "Seat",
+      "title": "Bars & pours",
+      "snippet": "Which bar move or service detail made you feel looked after, and what would you order there?"
     },
     {
-      "tag": "Category",
-      "title": "Gin",
-      "snippet": "Botanicals and G&T ratios."
+      "tag": "Seat",
+      "title": "Sober-curious",
+      "snippet": "What helps you choose a zero-proof or alcohol-free night without having to explain yourself?"
     },
     {
-      "tag": "Category",
-      "title": "Nonalc",
-      "snippet": "Zero-proof pours that still count."
+      "tag": "Seat",
+      "title": "Recipes & batch",
+      "snippet": "What are you mixing for the next gathering, and what should someone bring to make it their own?"
+    },
+    {
+      "tag": "Seat",
+      "title": "Hangover honesty",
+      "snippet": "What pace, pause, or next-morning boundary has worked for you—and what did it teach you?"
     }
   ],
   "topics": [
     {
-      "tag": "Value",
-      "title": "Under $40 (illustrative)",
-      "snippet": "Price hints are stubs — not live shelf prices."
+      "tag": "Seat",
+      "title": "Tasting notes",
+      "snippet": "What did you smell, taste, and notice first—and what would you pour beside it?"
     },
     {
-      "tag": "Educate",
-      "title": "Learn the pour",
-      "snippet": "Blurbs and steward notes, not certifications."
+      "tag": "Seat",
+      "title": "Bars & pours",
+      "snippet": "Which bar move or service detail made you feel looked after, and what would you order there?"
     },
     {
-      "tag": "Region",
-      "title": "US / UK / JP / AU hints",
-      "snippet": "Illustrative bands only."
+      "tag": "Seat",
+      "title": "Sober-curious",
+      "snippet": "What helps you choose a zero-proof or alcohol-free night without having to explain yourself?"
     },
     {
-      "tag": "Pairing",
-      "title": "Food + glass",
-      "snippet": "Dummy pairing energy."
+      "tag": "Seat",
+      "title": "Recipes & batch",
+      "snippet": "What are you mixing for the next gathering, and what should someone bring to make it their own?"
+    },
+    {
+      "tag": "Seat",
+      "title": "Hangover honesty",
+      "snippet": "What pace, pause, or next-morning boundary has worked for you—and what did it teach you?"
     }
   ],
   "stories": {
@@ -121,73 +131,117 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample — not mixed into the live feed",
+  "seedNote": "STEWARD_PACK_ALIVE — sample steward posts, not mixed into the live feed",
   "seed": [
     {
-      "id": "p1",
+      "id": "s-tasting",
+      "name": "Glass Note",
+      "handle": "glassnote",
+      "seat": "Tasting notes",
+      "text": "A good tasting note does not need to cosplay certainty: name the aroma, the texture, the finish, and what you would pour next. What did your glass actually say tonight?\n\nFACT: TTB provides a public registry for looking up COLA records. https://www.ttb.gov/online-services/public-cola-registry",
+      "hours": 2,
+      "likes": 14,
+      "replies": 3,
+      "followed": true
+    },
+    {
+      "id": "s-bars",
+      "name": "Bar Craft",
+      "handle": "barcraft",
+      "seat": "Bars & pours",
+      "text": "Bar craft lives in the small choices: glass, dilution, temperature, pace, and whether the bartender listens. Share the pour you would order twice, and tell us why.\n\nFACT: TTB publishes an official Consumer Corner with alcohol-consumer education. https://www.ttb.gov/business-central/consumer",
+      "hours": 3,
+      "likes": 11,
+      "replies": 2,
+      "followed": true
+    },
+    {
+      "id": "s-sober",
+      "name": "Pace Check",
+      "handle": "pacecheck",
+      "seat": "Sober-curious",
+      "text": "Sober-curious is a real seat at the table, not a side quest: ask for a zero-proof build, take a night off, or just compare notes. What makes a no-alcohol option feel considered rather than apologetic?\n\nFACT: TTB maintains a public consumer-education resource for alcohol topics. https://www.ttb.gov/business-central/consumer",
+      "hours": 5,
+      "likes": 16,
+      "replies": 4,
+      "followed": true
+    },
+    {
+      "id": "s-batch",
+      "name": "Batch Host",
+      "handle": "batchhost",
+      "seat": "Recipes & batch",
+      "text": "Batching is hospitality math with a human ending: keep the build clear, let people choose their pace, and make the nonalcoholic version just as intentional. What is your reliable party recipe—and what is the zero-proof sibling?\n\nFACT: The official TTB registry is available online for public COLA-record lookup. https://www.ttb.gov/online-services/public-cola-registry",
+      "hours": 6,
+      "likes": 9,
+      "replies": 2,
+      "followed": false
+    },
+    {
+      "id": "s-hangover",
+      "name": "Morning Kind",
+      "handle": "morningkind",
+      "seat": "Hangover honesty",
+      "text": "Hangover honesty is experience, not medicine: sometimes the lesson is “that was too fast,” “water would have helped,” or “today is an alcohol-free day.” No cures here—what boundary has made your next morning kinder?\n\nFACT: TTB’s Consumer Corner is an official educational destination for consumers. https://www.ttb.gov/business-central/consumer",
+      "hours": 8,
+      "likes": 12,
+      "replies": 3,
+      "followed": true
+    },
+    {
+      "id": "s-wine",
       "name": "Cork Watch",
       "handle": "corkwatch",
-      "text": "Opening a sample Pinot and the cork held. Weeknight red energy. Dummy pour — not a live review.",
-      "hours": 2,
-      "likes": 88,
-      "replies": 12,
-      "followed": true,
-      "nestSlug": "wine"
+      "nestSlug": "wine",
+      "text": "Wine talk gets better when “dry” is followed by something concrete: fruit, tannin, acid, body, or simply “not for me.” Which bottle taught you a useful new word?\n\nFACT: TTB’s Public COLA Registry is an official public-facing lookup resource. https://www.ttb.gov/online-services/public-cola-registry",
+      "hours": 9,
+      "likes": 15,
+      "replies": 4,
+      "followed": true
     },
     {
-      "id": "p2",
+      "id": "s-gin",
       "name": "Juniper Kid",
       "handle": "juniperkid",
-      "text": "G&T ratio debate again. I am team 1:3. Nest: gin. Illustrative chatter only.",
-      "hours": 4,
-      "likes": 64,
-      "replies": 19,
-      "followed": true,
-      "nestSlug": "gin"
+      "nestSlug": "gin",
+      "text": "Gin is a botanical argument: juniper leads, citrus interrupts, spice hangs around. What is your favorite gin-and-tonic adjustment, and what does it change in the glass?\n\nFACT: TTB offers official consumer information through its Consumer Corner. https://www.ttb.gov/business-central/consumer",
+      "hours": 11,
+      "likes": 13,
+      "replies": 3,
+      "followed": true
     },
     {
-      "id": "p3",
+      "id": "s-whiskey",
       "name": "Neat Pour",
       "handle": "neatpour",
-      "text": "High-rye bourbon neat. Age statement optional. Dummy whiskey nest post.",
-      "hours": 6,
-      "likes": 112,
-      "replies": 21,
-      "followed": false,
-      "nestSlug": "whiskey"
+      "nestSlug": "whiskey",
+      "text": "Whiskey notes are not a password test; “vanilla, oak, heat, and I like it” is a complete opening. Which detail makes you reach for another sip—and which makes you stop?\n\nFACT: The TTB registry lets the public look up COLA records online. https://www.ttb.gov/online-services/public-cola-registry",
+      "hours": 13,
+      "likes": 17,
+      "replies": 5,
+      "followed": false
     },
     {
-      "id": "p4",
+      "id": "s-rum",
+      "name": "Cane Note",
+      "handle": "canenote",
+      "nestSlug": "rum",
+      "text": "Rum can be bright, funky, grassy, molasses-rich, or all argument at once. What rum pour changed your assumptions, and would you serve it neat, tall, or in a stirred drink?\n\nFACT: TTB’s official Consumer Corner is a place to start with consumer education. https://www.ttb.gov/business-central/consumer",
+      "hours": 15,
+      "likes": 10,
+      "replies": 2,
+      "followed": true
+    },
+    {
+      "id": "s-nonalc",
       "name": "Zero Proof",
       "handle": "zeroproof",
-      "text": "NA IPA in the fridge. Still a pour. Nonalc nest — educate, don't gatekeep.",
-      "hours": 9,
-      "likes": 71,
-      "replies": 8,
-      "followed": true,
-      "nestSlug": "nonalc"
-    },
-    {
-      "id": "p5",
-      "name": "Agave Note",
-      "handle": "agavenote",
-      "text": "Highland blanco sip. No shot required. Tequila nest stub.",
-      "hours": 12,
-      "likes": 95,
-      "replies": 14,
-      "followed": true,
-      "nestSlug": "tequila"
-    },
-    {
-      "id": "p6",
-      "name": "Lager Loyal",
-      "handle": "lagerloyal",
-      "text": "Local pilsner is the fridge default. Beer nest. Illustrative only.",
-      "hours": 16,
-      "likes": 53,
-      "replies": 7,
-      "followed": false,
-      "nestSlug": "beer"
+      "nestSlug": "nonalc",
+      "text": "A nonalc drink deserves its own flavor brief, not a consolation speech: bitter, tart, herbal, fizzy, or tea-deep all count. What is the best zero-proof serve you have had lately?\n\nFACT: TTB provides an official online Consumer Corner for alcohol-related consumer education. https://www.ttb.gov/business-central/consumer",
+      "hours": 18,
+      "likes": 19,
+      "replies": 4,
+      "followed": true
     }
   ],
   "notifs": [
@@ -212,34 +266,77 @@
   ],
   "threads": [
     {
-      "id": "t1",
-      "name": "Cork Watch",
-      "handle": "corkwatch",
-      "preview": "Screw-cap or cork tonight?",
+      "id": "t-tasting",
+      "name": "Glass Note",
+      "handle": "glassnote",
+      "seat": "Tasting notes",
+      "rhythm": "ask-reply-ask",
+      "preview": "What is one tasting-note word you trust, and one you think gets overused?",
       "messages": [
         {
           "me": false,
-          "text": "Screw-cap or cork tonight?"
+          "role": "ask",
+          "text": "What is one tasting-note word you trust, and one you think gets overused?"
         },
         {
           "me": true,
-          "text": "Cork held. Dummy cellar chat."
+          "role": "reply",
+          "text": "I trust “tart” because it changes my next move; “smooth” tells me almost nothing without context."
+        },
+        {
+          "me": false,
+          "role": "ask",
+          "text": "What would you add to that glass to test your theory: food, dilution, a different glass, or another person’s palate?"
         }
       ]
     },
     {
-      "id": "t2",
-      "name": "Zero Proof",
-      "handle": "zeroproof",
-      "preview": "NA IPA still counts.",
+      "id": "t-bars",
+      "name": "Bar Craft",
+      "handle": "barcraft",
+      "seat": "Bars & pours",
+      "rhythm": "ask-reply-ask",
+      "preview": "What is the best small bar-service detail you have noticed lately?",
       "messages": [
         {
           "me": false,
-          "text": "NA IPA still counts."
+          "role": "ask",
+          "text": "What is the best small bar-service detail you have noticed lately?"
         },
         {
           "me": true,
-          "text": "Always. Nonalc nest."
+          "role": "reply",
+          "text": "A bartender asked my pace before recommending a second drink. It made the whole night feel more deliberate."
+        },
+        {
+          "me": false,
+          "role": "ask",
+          "text": "What question should a good bar ask you before the next pour?"
+        }
+      ]
+    },
+    {
+      "id": "t-boundary",
+      "name": "Morning Kind",
+      "handle": "morningkind",
+      "seat": "Hangover honesty",
+      "rhythm": "ask-reply-ask",
+      "preview": "What is your honest sign that the night is done—or that tonight should be alcohol-free?",
+      "messages": [
+        {
+          "me": false,
+          "role": "ask",
+          "text": "What is your honest sign that the night is done—or that tonight should be alcohol-free?"
+        },
+        {
+          "me": true,
+          "role": "reply",
+          "text": "When the conversation gets better with water in hand, I switch. That is a boundary, not a cure."
+        },
+        {
+          "me": false,
+          "role": "ask",
+          "text": "What zero-proof drink, snack, or next-morning ritual makes that choice feel like a good one for you?"
         }
       ]
     }
@@ -251,7 +348,7 @@
     "meta": "Preview · noindex",
     "footer": "Official TTB outbound only. No scrape. No retailer samples. 21+ / responsible adult. Preview.",
     "porch": {
-      "prompt": "What are you pouring tonight?",
+      "prompt": "What did your last pour teach you about taste, pace, or preference? For a little label-and-consumer homework, browse the [Official TTB Public COLA Registry](https://www.ttb.gov/online-services/public-cola-registry) and the [Official TTB Consumer Corner](https://www.ttb.gov/business-central/consumer), then come back and tell us: what did you look up, what surprised you, and what would you pour—or skip—next?",
       "dwellMs": 9000,
       "options": [
         "Wine",
