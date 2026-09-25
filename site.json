@@ -249,7 +249,7 @@
     "title": "Room Brief",
     "kicker": "On booze",
     "meta": "Preview · noindex",
-    "footer": "Curated outbound to official producer / retailer pages only. No scrape. Price hints illustrative.",
+    "footer": "Official TTB outbound only. No scrape. No retailer samples. 21+ / responsible adult. Preview.",
     "porch": {
       "prompt": "What are you pouring tonight?",
       "dwellMs": 9000,
@@ -261,18 +261,18 @@
     },
     "outbound": [
       {
-        "tag": "Educate",
-        "headline": "Tasting room etiquette (sample)",
-        "snippet": "Dummy educate card — not a retailer scrape.",
-        "meta": "Curated",
-        "url": "https://www.ttb.gov/"
+        "tag": "Board",
+        "headline": "COLA board",
+        "url": "https://www.ttb.gov/online-services/public-cola-registry",
+        "snippet": "Official TTB Public COLA Registry — free search of US Certificates of Label Approval. Not a price feed; not a scrape.",
+        "meta": "Official · board"
       },
       {
-        "tag": "Retailer",
-        "headline": "Find a licensed retailer near you",
-        "snippet": "Example outbound — verify local laws. Not a price feed.",
-        "meta": "Curated example",
-        "url": "https://www.totalwine.com/"
+        "tag": "Educate",
+        "headline": "Consumer educate",
+        "url": "https://www.ttb.gov/business-central/consumer",
+        "snippet": "Official TTB Consumer Corner — labeling/ad rules + how to report issues. Not medical advice.",
+        "meta": "Official · educate"
       }
     ]
   },
