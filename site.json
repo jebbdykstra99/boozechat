@@ -379,470 +379,120 @@
       "label": "Wine",
       "parent": null,
       "kind": "category",
-      "blurb": "Still, sparkling, and the arguments about cork.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-wine-1",
-          "subject": "Weeknight Pinot",
-          "stars": 4,
-          "snippet": "Dummy steward note — soft fruit, no live score.",
-          "region": "US"
-        },
-        {
-          "id": "r-wine-2",
-          "subject": "Coastal Albariño",
-          "stars": 5,
-          "snippet": "Illustrative pairing praise only.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
-    },
-    {
-      "slug": "vodka",
-      "label": "Vodka",
-      "parent": null,
-      "kind": "category",
-      "blurb": "Neutrals, flavored, and the freezer debate.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-vodka-1",
-          "subject": "Freezer rye",
-          "stars": 4,
-          "snippet": "Clean finish in a dummy martini.",
-          "region": "US"
-        },
-        {
-          "id": "r-vodka-2",
-          "subject": "Wheat mixer",
-          "stars": 3,
-          "snippet": "Fine in soda — not a lab result.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
-    },
-    {
-      "slug": "gin",
-      "label": "Gin",
-      "parent": null,
-      "kind": "category",
-      "blurb": "Botanicals, juniper fights, and G&T ratios.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-gin-1",
-          "subject": "London dry G&T",
-          "stars": 5,
-          "snippet": "Juniper wins this dummy round.",
-          "region": "US"
-        },
-        {
-          "id": "r-gin-2",
-          "subject": "Citrus contemporary",
-          "stars": 4,
-          "snippet": "Good with tonic; illustrative.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
-    },
-    {
-      "slug": "whiskey",
-      "label": "Whiskey",
-      "parent": null,
-      "kind": "category",
-      "blurb": "Bourbon, rye, scotch — age statements optional.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-whiskey-1",
-          "subject": "High-rye bourbon neat",
-          "stars": 5,
-          "snippet": "Spice on the dummy palate.",
-          "region": "US"
-        },
-        {
-          "id": "r-whiskey-2",
-          "subject": "Blended scotch",
-          "stars": 3,
-          "snippet": "Easy pour — sample only.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
-    },
-    {
-      "slug": "rum",
-      "label": "Rum",
-      "parent": null,
-      "kind": "category",
-      "blurb": "Agricultural to industrial; molasses lore welcome.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-rum-1",
-          "subject": "Agricole ti' punch",
-          "stars": 5,
-          "snippet": "Grassy and bright — stub review.",
-          "region": "US"
-        },
-        {
-          "id": "r-rum-2",
-          "subject": "Jamaican neat",
-          "stars": 4,
-          "snippet": "Funk as advertised (dummy).",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
-    },
-    {
-      "slug": "tequila",
-      "label": "Tequila",
-      "parent": null,
-      "kind": "category",
-      "blurb": "Agave, highland vs lowland, and sipping vs shot.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-tequila-1",
-          "subject": "Highland blanco",
-          "stars": 5,
-          "snippet": "Agave-forward sip stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-tequila-2",
-          "subject": "Reposado old fashioned",
-          "stars": 4,
-          "snippet": "Oak whisper — illustrative.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
+      "blurb": "Still, sparkling, fortified — sensory notes and style talk, not cellar flex.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "wine"
     },
     {
       "slug": "beer",
       "label": "Beer",
       "parent": null,
       "kind": "category",
-      "blurb": "Craft, lager loyalty, and hop math.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-beer-1",
-          "subject": "Local pilsner",
-          "stars": 4,
-          "snippet": "Sessionable dummy pour.",
-          "region": "US"
-        },
-        {
-          "id": "r-beer-2",
-          "subject": "West-coast IPA",
-          "stars": 4,
-          "snippet": "Bitter loyalty — sample.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
+      "blurb": "Ales, lagers, style language without scorekeeping.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "beer"
     },
     {
       "slug": "sake",
       "label": "Sake",
       "parent": null,
       "kind": "category",
-      "blurb": "Junmai to daiginjo; temperature is half the argument.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-sake-1",
-          "subject": "Junmai warm",
-          "stars": 4,
-          "snippet": "Food-friendly stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-sake-2",
-          "subject": "Ginjo chilled",
-          "stars": 5,
-          "snippet": "Aromatic chill — illustrative.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
+      "blurb": "Junmai→daiginjo; temperature and food-first talk.",
+      "nav": true,
+      "defaultTopic": false,
+      "topicId": null
+    },
+    {
+      "slug": "whiskey",
+      "label": "Whiskey",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Bourbon, rye, scotch, world whisky — notes over gatekeeping.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "whiskey"
+    },
+    {
+      "slug": "gin",
+      "label": "Gin",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Botanicals, juniper fights, G&T ratios.",
+      "nav": true,
+      "defaultTopic": false,
+      "topicId": null
+    },
+    {
+      "slug": "rum",
+      "label": "Rum",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Agricole↔molasses; funky to clean; tall or neat.",
+      "nav": true,
+      "defaultTopic": false,
+      "topicId": null
+    },
+    {
+      "slug": "vodka",
+      "label": "Vodka",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Neutrals, freezer debate, mixer honesty.",
+      "nav": true,
+      "defaultTopic": false,
+      "topicId": null
+    },
+    {
+      "slug": "tequila",
+      "label": "Tequila",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Agave tequila — blanco→añejo; sip vs serve.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "agave"
+    },
+    {
+      "slug": "mezcal",
+      "label": "Mezcal",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Agave beyond tequila — smoke, village, serve.",
+      "nav": true,
+      "defaultTopic": false,
+      "topicId": "agave"
     },
     {
       "slug": "amaro",
       "label": "Amaro",
       "parent": null,
       "kind": "category",
-      "blurb": "Bitter digestifs and after-dinner rituals.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-amaro-1",
-          "subject": "After-dinner Averna-style",
-          "stars": 5,
-          "snippet": "Digestif ritual stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-amaro-2",
-          "subject": "Alpine bitter on ice",
-          "stars": 4,
-          "snippet": "Herbal — sample only.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
+      "blurb": "Bitters, digestifs, after-dinner rituals.",
+      "nav": true,
+      "defaultTopic": false,
+      "topicId": null
+    },
+    {
+      "slug": "cocktails",
+      "label": "Cocktails",
+      "parent": null,
+      "kind": "category",
+      "blurb": "Builds, balance, classics, batch — hospitality craft.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "cocktails"
     },
     {
       "slug": "nonalc",
       "label": "Nonalc",
       "parent": null,
       "kind": "category",
-      "blurb": "Zero-proof pours that still start conversations.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-nonalc-1",
-          "subject": "NA IPA",
-          "stars": 4,
-          "snippet": "Hop itch scratched (dummy).",
-          "region": "US"
-        },
-        {
-          "id": "r-nonalc-2",
-          "subject": "Botanical NA + tonic",
-          "stars": 5,
-          "snippet": "Gin-adjacent stub.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "prices": [
-        {
-          "region": "US",
-          "note": "illustrative band only — not a live shelf price",
-          "band": "varies"
-        },
-        {
-          "region": "UK",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "JP",
-          "note": "illustrative band only",
-          "band": "varies"
-        },
-        {
-          "region": "AU",
-          "note": "illustrative band only",
-          "band": "varies"
-        }
-      ]
+      "blurb": "Zero-proof pours with their own brief — not apology.",
+      "nav": true,
+      "defaultTopic": true,
+      "topicId": "zero-proof"
     }
   ],
   "taxonomy": {
