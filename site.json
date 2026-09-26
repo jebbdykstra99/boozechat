@@ -844,5 +844,95 @@
         }
       ]
     }
-  ]
+  ],
+  "taxonomy": {
+    "version": 1,
+    "name": "Pour list",
+    "symbolPrefix": "$",
+    "topics": [
+      {
+        "id": "wine",
+        "label": "Wine",
+        "kind": "beverage",
+        "blurb": "Still & sparkling",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "whiskey",
+        "label": "Whiskey / whisky",
+        "kind": "beverage",
+        "blurb": "Grain spirits",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "beer",
+        "label": "Beer",
+        "kind": "beverage",
+        "blurb": "Ales & lagers",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "cocktails",
+        "label": "Cocktails",
+        "kind": "beverage",
+        "blurb": "Mixed drinks",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "agave",
+        "label": "Agave",
+        "kind": "beverage",
+        "blurb": "Tequila / mezcal",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "zero-proof",
+        "label": "Zero-proof",
+        "kind": "beverage",
+        "blurb": "NA options",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "pairing",
+        "label": "Pairing",
+        "kind": "theme",
+        "blurb": "Food & drink",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "responsibility",
+        "label": "Drink responsibly",
+        "kind": "theme",
+        "blurb": "Safety culture",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      }
+    ],
+    "defaultWatchlist": [
+      "wine",
+      "whiskey",
+      "beer",
+      "cocktails",
+      "zero-proof",
+      "responsibility"
+    ],
+    "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
+  },
+  "v": 1,
+  "cacheBust": 1
 }
