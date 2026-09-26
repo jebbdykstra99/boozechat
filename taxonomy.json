@@ -1,0 +1,89 @@
+{
+  "siteId": "booze",
+  "domain": "boozechat.com",
+  "taxonomyName": "Pour list",
+  "topics": [
+    {
+      "id": "wine",
+      "label": "Wine",
+      "kind": "beverage",
+      "blurb": "Still & sparkling",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "whiskey",
+      "label": "Whiskey / whisky",
+      "kind": "beverage",
+      "blurb": "Grain spirits",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "beer",
+      "label": "Beer",
+      "kind": "beverage",
+      "blurb": "Ales & lagers",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "cocktails",
+      "label": "Cocktails",
+      "kind": "beverage",
+      "blurb": "Mixed drinks",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "agave",
+      "label": "Agave",
+      "kind": "beverage",
+      "blurb": "Tequila / mezcal",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "zero-proof",
+      "label": "Zero-proof",
+      "kind": "beverage",
+      "blurb": "NA options",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "pairing",
+      "label": "Pairing",
+      "kind": "theme",
+      "blurb": "Food & drink",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "responsibility",
+      "label": "Drink responsibly",
+      "kind": "theme",
+      "blurb": "Safety culture",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    }
+  ],
+  "topicCount": 8,
+  "defaultWatchlist": [
+    "wine",
+    "whiskey",
+    "beer",
+    "cocktails",
+    "zero-proof",
+    "responsibility"
+  ],
+  "notes": "adminSeed topics are factory pre-populated. Users may unfollow (remove from their list) or follow more from the full taxonomy. Admins may retire topics (status=retired) or add new ones; user lists stay editable."
+}
