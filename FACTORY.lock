@@ -1,0 +1,13 @@
+{
+  "factory": "jebbdykstra99/subx-factory",
+  "version": "v1.1.0",
+  "room": "boozechat",
+  "siteId": "booze",
+  "files": {
+    "factory.js": "7466eefc88f4103dcc159bcea5a788d35dc4b1402ffba14b270f3ede99b610d0",
+    "styles.css": "5a34346775c38c3da8a4a3257da7d10ab5c5f8dad85754b38bfbc02819842572"
+  },
+  "keepFiles": [],
+  "exceptions": "see subx-factory EXCEPTIONS.md",
+  "stampedAt": "2026-10-13T13:47:14Z"
+}

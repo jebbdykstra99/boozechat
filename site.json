@@ -1,6 +1,5 @@
 {
   "siteId": "booze",
-  "redditSr": "boozechat",
   "name": "boozechat",
   "domain": "boozechat.com",
   "tagline": "Pour. Argue. Learn.",
@@ -584,5 +583,14 @@
     "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
   },
   "v": 1,
-  "cacheBust": 1
+  "cacheBust": 1,
+  "minAge": 21,
+  "redditCrosspost": false,
+  "features": {
+    "following": true,
+    "notifs": true
+  },
+  "skin": {
+    "keepBrandTitle": "true"
+  }
 }
