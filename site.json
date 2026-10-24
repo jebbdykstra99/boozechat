@@ -9,7 +9,7 @@
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room — noindex until GTM lifts. Sign in to post the first pour. Guest can browse only. Rankings and price hints are illustrative stubs, not live shelf prices.",
+  "emptyState": "Preview room: noindex until GTM lifts. Sign in to post the first pour. Guest can browse only. Rankings and price hints are illustrative stubs, not live shelf prices.",
   "theme": {
     "bg": "#1a1210",
     "surface": "#241a16",
@@ -38,7 +38,7 @@
     {
       "tag": "Wine",
       "headline": "Cork vs screw-cap round two",
-      "snippet": "Dummy cellar chat — no live auction data.",
+      "snippet": "Dummy cellar chat, no live auction data.",
       "meta": "Nest: wine"
     },
     {
@@ -62,7 +62,7 @@
     {
       "tag": "Tequila",
       "headline": "Highland vs lowland argument",
-      "snippet": "Agave talk — dummy steward notes.",
+      "snippet": "Agave talk: dummy steward notes.",
       "meta": "Nest: tequila"
     },
     {
@@ -76,7 +76,7 @@
     {
       "tag": "Seat",
       "title": "Tasting notes",
-      "snippet": "What did you smell, taste, and notice first—and what would you pour beside it?"
+      "snippet": "What did you smell, taste, and notice first, and what would you pour beside it?"
     },
     {
       "tag": "Seat",
@@ -96,14 +96,14 @@
     {
       "tag": "Seat",
       "title": "Hangover honesty",
-      "snippet": "What pace, pause, or next-morning boundary has worked for you—and what did it teach you?"
+      "snippet": "What pace, pause, or next-morning boundary has worked for you, and what did it teach you?"
     }
   ],
   "topics": [
     {
       "tag": "Seat",
       "title": "Tasting notes",
-      "snippet": "What did you smell, taste, and notice first—and what would you pour beside it?"
+      "snippet": "What did you smell, taste, and notice first, and what would you pour beside it?"
     },
     {
       "tag": "Seat",
@@ -123,7 +123,7 @@
     {
       "tag": "Seat",
       "title": "Hangover honesty",
-      "snippet": "What pace, pause, or next-morning boundary has worked for you—and what did it teach you?"
+      "snippet": "What pace, pause, or next-morning boundary has worked for you, and what did it teach you?"
     }
   ],
   "stories": {
@@ -131,7 +131,7 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "STEWARD_PACK_ALIVE — sample steward posts, not mixed into the live feed",
+  "seedNote": "STEWARD_PACK_ALIVE: sample steward posts, not mixed into the live feed",
   "seed": [
     {
       "id": "s-tasting",
@@ -171,7 +171,7 @@
       "name": "Batch Host",
       "handle": "batchhost",
       "seat": "Recipes & batch",
-      "text": "Batching is hospitality math with a human ending: keep the build clear, let people choose their pace, and make the nonalcoholic version just as intentional. What is your reliable party recipe—and what is the zero-proof sibling?\n\nFACT: The official TTB registry is available online for public COLA-record lookup. https://www.ttb.gov/online-services/public-cola-registry",
+      "text": "Batching is hospitality math with a human ending: keep the build clear, let people choose their pace, and make the nonalcoholic version just as intentional. What is your reliable party recipe, and what is the zero-proof sibling?\n\nFACT: The official TTB registry is available online for public COLA-record lookup. https://www.ttb.gov/online-services/public-cola-registry",
       "hours": 6,
       "likes": 9,
       "replies": 2,
@@ -182,7 +182,7 @@
       "name": "Morning Kind",
       "handle": "morningkind",
       "seat": "Hangover honesty",
-      "text": "Hangover honesty is experience, not medicine: sometimes the lesson is “that was too fast,” “water would have helped,” or “today is an alcohol-free day.” No cures here—what boundary has made your next morning kinder?\n\nFACT: TTB’s Consumer Corner is an official educational destination for consumers. https://www.ttb.gov/business-central/consumer",
+      "text": "Hangover honesty is experience, not medicine: sometimes the lesson is “that was too fast,” “water would have helped,” or “today is an alcohol-free day.” No cures here. What boundary has made your next morning kinder?\n\nFACT: TTB’s Consumer Corner is an official educational destination for consumers. https://www.ttb.gov/business-central/consumer",
       "hours": 8,
       "likes": 12,
       "replies": 3,
@@ -215,7 +215,7 @@
       "name": "Neat Pour",
       "handle": "neatpour",
       "nestSlug": "whiskey",
-      "text": "Whiskey notes are not a password test; “vanilla, oak, heat, and I like it” is a complete opening. Which detail makes you reach for another sip—and which makes you stop?\n\nFACT: The TTB registry lets the public look up COLA records online. https://www.ttb.gov/online-services/public-cola-registry",
+      "text": "Whiskey notes are not a password test; “vanilla, oak, heat, and I like it” is a complete opening. Which detail makes you reach for another sip, and which makes you stop?\n\nFACT: The TTB registry lets the public look up COLA records online. https://www.ttb.gov/online-services/public-cola-registry",
       "hours": 13,
       "likes": 17,
       "replies": 5,
@@ -321,12 +321,12 @@
       "handle": "morningkind",
       "seat": "Hangover honesty",
       "rhythm": "ask-reply-ask",
-      "preview": "What is your honest sign that the night is done—or that tonight should be alcohol-free?",
+      "preview": "What is your honest sign that the night is done, or that tonight should be alcohol-free?",
       "messages": [
         {
           "me": false,
           "role": "ask",
-          "text": "What is your honest sign that the night is done—or that tonight should be alcohol-free?"
+          "text": "What is your honest sign that the night is done, or that tonight should be alcohol-free?"
         },
         {
           "me": true,
@@ -348,7 +348,7 @@
     "meta": "Preview · noindex",
     "footer": "Official TTB outbound only. No scrape. No retailer samples. Intended for 21+ (self-attested at sign-up). Preview.",
     "porch": {
-      "prompt": "What did your last pour teach you about taste, pace, or preference? For a little label-and-consumer homework, browse the [Official TTB Public COLA Registry](https://www.ttb.gov/online-services/public-cola-registry) and the [Official TTB Consumer Corner](https://www.ttb.gov/business-central/consumer), then come back and tell us: what did you look up, what surprised you, and what would you pour—or skip—next?",
+      "prompt": "What did your last pour teach you about taste, pace, or preference? For a little label-and-consumer homework, browse the [Official TTB Public COLA Registry](https://www.ttb.gov/online-services/public-cola-registry) and the [Official TTB Consumer Corner](https://www.ttb.gov/business-central/consumer), then come back and tell us: what did you look up, what surprised you, and what would you pour, or skip, next?",
       "dwellMs": 9000,
       "options": [
         "Wine",
@@ -361,14 +361,14 @@
         "tag": "Board",
         "headline": "COLA board",
         "url": "https://www.ttb.gov/online-services/public-cola-registry",
-        "snippet": "Official TTB Public COLA Registry — free search of US Certificates of Label Approval. Not a price feed; not a scrape.",
+        "snippet": "Official TTB Public COLA Registry: free search of US Certificates of Label Approval. Not a price feed; not a scrape.",
         "meta": "Official · board"
       },
       {
         "tag": "Educate",
         "headline": "Consumer educate",
         "url": "https://www.ttb.gov/business-central/consumer",
-        "snippet": "Official TTB Consumer Corner — labeling/ad rules + how to report issues. Not medical advice.",
+        "snippet": "Official TTB Consumer Corner: labeling/ad rules + how to report issues. Not medical advice.",
         "meta": "Official · educate"
       }
     ]
@@ -379,7 +379,7 @@
       "label": "Wine",
       "parent": null,
       "kind": "category",
-      "blurb": "Still, sparkling, fortified — sensory notes and style talk, not cellar flex.",
+      "blurb": "Still, sparkling, fortified: sensory notes and style talk, not cellar flex.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "wine"
@@ -409,7 +409,7 @@
       "label": "Whiskey",
       "parent": null,
       "kind": "category",
-      "blurb": "Bourbon, rye, scotch, world whisky — notes over gatekeeping.",
+      "blurb": "Bourbon, rye, scotch, world whisky: notes over gatekeeping.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "whiskey"
@@ -449,7 +449,7 @@
       "label": "Tequila",
       "parent": null,
       "kind": "category",
-      "blurb": "Agave tequila — blanco→añejo; sip vs serve.",
+      "blurb": "Agave tequila: blanco→añejo; sip vs serve.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "agave"
@@ -459,7 +459,7 @@
       "label": "Mezcal",
       "parent": null,
       "kind": "category",
-      "blurb": "Agave beyond tequila — smoke, village, serve.",
+      "blurb": "Agave beyond tequila: smoke, village, serve.",
       "nav": true,
       "defaultTopic": false,
       "topicId": "agave"
@@ -479,7 +479,7 @@
       "label": "Cocktails",
       "parent": null,
       "kind": "category",
-      "blurb": "Builds, balance, classics, batch — hospitality craft.",
+      "blurb": "Builds, balance, classics, batch: hospitality craft.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "cocktails"
@@ -489,7 +489,7 @@
       "label": "Nonalc",
       "parent": null,
       "kind": "category",
-      "blurb": "Zero-proof pours with their own brief — not apology.",
+      "blurb": "Zero-proof pours with their own brief, not apology.",
       "nav": true,
       "defaultTopic": true,
       "topicId": "zero-proof"
