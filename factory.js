@@ -1054,6 +1054,7 @@
   }
 
   var deepPostId = '';
+  var authQ = '';
   var deepPostDone = false;
   var shareSheetPostId = null;
 
@@ -6525,9 +6526,9 @@
     window.addEventListener('hashchange', applyRoute);
     window.addEventListener('popstate', applyRoute);
     try { var sp = new URLSearchParams(location.search); deepPostId = sp.get('p') || ''; var a = sp.get('auth');
-      if (a && !isLiveUser()) { openAuth(a === 'register' ? 'register' : 'join'); sp.delete('auth');
+      if (a) { authQ = a === 'register' ? 'register' : 'join'; sp.delete('auth');
         var q = sp.toString(); history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash); }
-    } catch (e) { deepPostId = ''; }
+    } catch (e) {}
     if (!location.hash || location.hash === '#') {
       history.replaceState(null, '', location.pathname + location.search + '#home');
     }
@@ -6554,6 +6555,7 @@
           }
         }).catch(function () {});
         fbAuth.onAuthStateChanged(function (user) {
+          var q=authQ;authQ='';if(!user&&q)openAuth(q);
           if (user) applyFbUser(user);
           else {
             stopPreviewLift();
