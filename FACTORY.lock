@@ -5,7 +5,7 @@
   "siteId": "booze",
   "files": {
     "factory.js": "e3a8df039c327664679121a12213a0d5018a3fc64fac4722e275e2ea72c1e4ae",
-    "styles.css": "f8c903e35b2f584db219a9ce48e1a5c783ca2da385053c515de583065657f42c"
+    "styles.css": "af757d0e67d3ff4081e99d9a3fc2b9d7dcda85c650b886db43934355c8128d0c"
   },
   "keepFiles": [
     "takedown.js"
