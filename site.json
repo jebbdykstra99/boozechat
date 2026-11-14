@@ -340,6 +340,24 @@
       ]
     }
   ],
+  "featured": {
+    "featuredDays": 3,
+    "maxPinned": 3,
+    "articleMinChars": 600,
+    "label": "Our articles",
+    "handles": [
+      "zeroproofdesk",
+      "agavedesk",
+      "beerdesk",
+      "barcraftdesk",
+      "tastingdesk",
+      "porchdesk",
+      "winedesk",
+      "gindesk",
+      "hangoverdesk",
+      "rumdesk"
+    ]
+  },
   "rail": {
     "kind": "room-brief",
     "title": "Room Brief",
